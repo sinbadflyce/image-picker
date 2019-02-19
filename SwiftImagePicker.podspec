@@ -17,15 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "SwiftImagePicker"
   s.version      = "0.7.6"
-  s.summary      = "A short description of SwiftImagePicker."
+  s.summary      = "Useful ImagePicker Library"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "An easy to use drop-in framework providing user interface for taking pictures and videos and pick assets from Photo Library"
 
   s.homepage     = "https://github.com/inloop/image-picker"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -64,7 +63,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "11.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -135,5 +134,6 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
 
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.swift_version = "4.0"
 
 end
